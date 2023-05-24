@@ -1,3 +1,3 @@
 <footer class="text-center bg-success">
-    Made with &hearts; by Bolean
+    Made with &hearts; by Boolean
 </footer>
