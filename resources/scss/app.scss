@@ -7,3 +7,13 @@ $fa-font-path: "../fonts/webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 @import '~bootstrap/scss/bootstrap';
+
+header{
+    height: 90px;
+}
+footer{
+    height: 40px;
+}
+main{
+    height: calc(100vh - 130px);
+}

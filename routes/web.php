@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TrainController;
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,4 +13,4 @@ use App\Http\Controllers\TrainController;
 |
 */
 
-Route::get('/', [TrainController::class, 'home'])->name('home');
+Route::get('/', [HomeController::class, 'home'])->name('home');
